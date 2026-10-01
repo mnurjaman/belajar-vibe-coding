@@ -4,7 +4,7 @@ import * as schema from "./schema";
 
 const databaseUrl = process.env.DATABASE_URL || "mysql://root:root@localhost:3306/belajar_vibe_coding";
 
-const poolConnection = mysql.createPool(databaseUrl);
+export const poolConnection = mysql.createPool(databaseUrl);
 
 export const db = drizzle(poolConnection, { schema, mode: "default" });
 export { schema };
