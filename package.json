@@ -1,0 +1,18 @@
+{
+  "name": "belajar-vibe-coding",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "drizzle-kit": "^0.31.11"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.3",
+    "elysia": "^1.4.30",
+    "mysql2": "^3.24.5"
+  }
+}
